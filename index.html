@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bossa Nova</title>
+    
+    <!-- --- bootstrap --- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- --- css main--- -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header id="header">
+      <nav class="navbar fixed-top navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logoBossa.png" alt="BossaNova logo" width="190" height="60">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/menu.html">Menú</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reservas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Sobre Nosotros</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">¿Quienes somos?</a></li>
+                  <li><a class="dropdown-item" href="#">Ubicacion</a></li>
+                  <li><a class="dropdown-item" href="#">Staff</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Contacto</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <div class="container_img_bg">
+        <h3>Unimos lo mejor de Brasil y Argentina</h3>
+      </div>
+      <div class="container about">
+        <h2 class="about__title color_green">¿Quienes somos?</h2>
+        <div class="about__cont container">
+          <div class="about__cont__text">
+            <p>Somos un Resto-bar con mas de 10 años de trayectoria ubicado en San Antonio de Arredondo, Córdoba, en el que vas a encontrar la unión de dos culturas totalmente distintas de una manera única.</p>
+            <p>Te presentamos <b>Bossa Nova Beach Club</b>, un lugar donde podrás disfrutar de <b>comidas</b> y <b>tragos</b> tanto argentinos como brasileros, incluyendo la buena <b>música</b> y los <b>shows en vivo</b>, que le darán el toque mágico a tu noche.</p>
+          </div>
+          <h3 class="title-carousel color_green">Un poco de nosotros...</h3>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/baibarra.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/batucada2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/baile.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/batucada1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/todos.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="container_ubicacion container">
+          <h4 class="color_green">Ubicación</h4>
+          <p>Estamos ubicados en <b>Av. Héroes de Malvinas 900, San Antonio de Arredondo, Córdoba, Argentina</b>.</p>
+          <iframe class="ubicacion_mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.015754084381!2d-64.52443022460632!3d-31.468752798784447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d67e3e16352f3%3A0xe106b586e033cba2!2sAv.%20H%C3%A9roes%20de%20Malvinas%20900%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1709231881971!5m2!1ses!2sar" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="container container_menu">
+          <h3>Nuestros platos típicos</h3>
+          <div class="row container_menu__platos">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <img src="./img/feijoada.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Feijoada</h5>
+                  <p class="card-text">Un delicioso estofado de frijoles y verduras, acompañados de carne de cerdo y embutidos, presentado con arroz y papas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <img src="./img/Coxinha.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coxinhas de Frango</h5>
+                  <p class="card-text">Un buñuelo en forma de lágrima elaborado a base de una mezcla de pollo desmenuzado que se envuelve en una masa, se reboza y se fríe.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <img src="./img/porquinho.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Porquinho en Kimono</h5>
+                  <p class="card-text">Es un Harumaki relleno de carne de cerdo y queso crema con hierbas presentado con una salsa especial</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <h3>Nuestras Bebidas típicas</h3>
+          <div class="row container_menu__platos">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <img src="./img/baibarra.jpeg" class="card-img-top" alt="capeta">
+                <div class="card-body">
+                  <h5 class="card-title">Capeta</h5>
+                  <p class="card-text">Un delicioso trago cremoso, con crema americana, piña colada, frutilla y alcohol de todo tipo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <img src="./img/caipi.jpg" class="card-img-top" alt="caipirinha">
+                <div class="card-body">
+                  <h5 class="card-title">Caipirinha</h5>
+                  <p class="card-text">Cóctel brasileño cuyo ingrediente principal es la cachaça, pero también lleva lima o limón sutil, azúcar y hielo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <img src="./img/mojito.jpg" class="card-img-top" alt="mojito">
+                <div class="card-body">
+                  <h5 class="card-title">Mojito</h5>
+                  <p class="card-text">cóctel popular originario de Cuba, compuesto de ron, limón, azúcar, menta o hierbabuena y agua mineral con gas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-grid gap-2 container_btn_menu">
+            <a href="./pages/menu.html" class="btn btn-warning" type="button">Ver Menú</a>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+    <footer id="footer">
+
+    </footer>
+
+
+
+
+    <script src="./index.js"></script>
+    <!-- --- script bootstrap--- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
