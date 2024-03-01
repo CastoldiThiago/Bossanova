@@ -110,3 +110,31 @@ b {
     margin-top: 1.5em;
 }
 
+#footer {
+    background-color: var(--bg-color);
+    color: var(--yellow);
+}
+
+.footer_container{
+    padding: 2em 2em;
+    justify-content: center;
+}
+
+.footer__logo{
+    width: 18rem;
+}
+.container_footer_logo{
+    text-align: center;
+    padding-top: 1em;
+}
+.container_footer_links li{
+    margin: 0.5em;
+    list-style: none;
+}
+.container_footer_links li a {
+    color: var(--yellow);
+    transition: color 0.5s;
+}
+.container_footer_links li a:hover{
+    color: #c0ba16;
+}
