@@ -9,13 +9,18 @@
     --bg-color: #2b2821;
     --green: #009841;
 }
-
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    padding-top: 70px;
+}
 #main {
     background-color: var(--main-bg-color);
-}
-.navbar{
-    padding: 0 0;
-}
+} 
+
+
 .navbar-nav .nav-link {
     margin: 0.5em 0em 0.5em 1.5em;
     font-size: 1em;
@@ -28,6 +33,9 @@
     color: #c0ba16;
 }
 
+.dropdown-item {
+    color: var(--yellow);
+}
 
 .container_img_bg{
     height: 70vh;
@@ -68,6 +76,7 @@ b {
     max-width: 900px;
 
 }
+
 .container_ubicacion{
     justify-content: center;
     align-items: center;
