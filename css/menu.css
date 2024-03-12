@@ -100,9 +100,14 @@ body {
 .section_title{
     text-align: center;
     color: #009841;
-    padding: 1em;
+    padding: 0.5em;
     font-family: nightcat;
     font-size: 2em;
+    background: #fffc00;
+    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);
+    background: linear-gradient(to right, #ffffff, #fffc00);
+    margin: 1em 1em;
+    border-radius: 20px;
 }
 .section_container{
     margin: 20px;
@@ -146,6 +151,70 @@ body {
     text-align: center;
 }
 
+
+
+
+
+
+
+@media (min-width:420px) {
+    .subsection_container{
+        width: 24em;
+    }
+}
+
+@media (min-width:800px) {
+    .navbar_text{
+        justify-content: space-evenly;
+    }
+    .subsection_title{
+        font-size: 1.2em;
+    }
+    .bebidas{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 10px;
+    }
+    .sin_alcohol{
+        grid-row: span 7;
+    }
+    .cocktails{
+        grid-row: span 35;
+    }
+    .gaseosas{
+        grid-row: span 8;
+    }
+    .cervezas{
+        grid-row: span 7;
+    }
+    .cubas{
+        grid-row: span 10;
+    }
+    .vinos{
+        grid-row: span 5;
+    }
+    .comidas{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 10px;
+    }
+    .brasileros{
+        grid-row: span 5;
+    }
+    .pizzas{
+        grid-row: span 12;
+    }
+    .sandwiches{
+        grid-row: span 9;
+    }
+    .postres{
+        grid-row: span 6;
+    }
+}
+
+@media (min-width:1300px) {
+    .subsection_container{
+        width: 34em;
+    }
+}
 
 
 
