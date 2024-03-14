@@ -14,7 +14,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    padding-bottom: 7em;
+    padding-bottom: 70px;
 }
 
 .navbar {
@@ -154,73 +154,6 @@ body {
 
 
 
-
-
-
-@media (min-width:420px) {
-    .subsection_container{
-        width: 24em;
-    }
-}
-
-@media (min-width:800px) {
-    .navbar_text{
-        justify-content: space-evenly;
-    }
-    .subsection_title{
-        font-size: 1.2em;
-    }
-    .bebidas{
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 10px;
-    }
-    .sin_alcohol{
-        grid-row: span 7;
-    }
-    .cocktails{
-        grid-row: span 35;
-    }
-    .gaseosas{
-        grid-row: span 8;
-    }
-    .cervezas{
-        grid-row: span 7;
-    }
-    .cubas{
-        grid-row: span 10;
-    }
-    .vinos{
-        grid-row: span 5;
-    }
-    .comidas{
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 10px;
-    }
-    .brasileros{
-        grid-row: span 5;
-    }
-    .pizzas{
-        grid-row: span 12;
-    }
-    .sandwiches{
-        grid-row: span 9;
-    }
-    .postres{
-        grid-row: span 6;
-    }
-}
-
-@media (min-width:1300px) {
-    .subsection_container{
-        width: 34em;
-    }
-}
-
-
-
-
-
-
 @media (min-width:420px) {
     .subsection_container{
         width: 24em;
@@ -239,7 +172,7 @@ body {
         grid-row: span 7;
     }
     .cocktails{
-        grid-row: span 35;
+        grid-row: span 30;
     }
     .gaseosas{
         grid-row: span 8;
@@ -248,7 +181,7 @@ body {
         grid-row: span 7;
     }
     .cubas{
-        grid-row: span 10;
+        grid-row: span 9;
     }
     .vinos{
         grid-row: span 5;
@@ -258,10 +191,13 @@ body {
         grid-auto-rows: 10px;
     }
     .brasileros{
-        grid-row: span 5;
+        grid-row: span 14;
     }
     .pizzas{
         grid-row: span 12;
+    }
+    .picar{
+        grid-row: span 7;
     }
     .sandwiches{
         grid-row: span 9;
@@ -274,5 +210,12 @@ body {
 @media (min-width:1300px) {
     .subsection_container{
         width: 34em;
+    }
+
+    .brasileros{
+        grid-row: span 12;
+    }
+    .cocktails{
+        grid-row: span 26;
     }
 }
